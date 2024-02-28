@@ -1,0 +1,96 @@
+/* font-family: "Kumbh Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings:
+  "YOPQ" 300; */
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(229, 23%, 23%);
+    background-color:  hsl(185, 75%, 39%);
+    background-image: url();
+    font-family: "Kumbh Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/bg-pattern-top.svg' ) ,url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: top 185% left -10%, bottom 225% right -10%;
+}
+
+  .card {
+    background-color:white;
+    color:  hsl(229, 23%, 23%);
+    margin: 100px 50px 50px 50px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 5px 5px 35px hsl(229, 23%, 23%);
+  
+
+ @media (min: 300px) {
+    margin:600px;
+ }
+
+}
+
+  .image-container {
+    background-image: url('images/bg-pattern-card.svg');
+    border-radius: 20px 20px 0 0;
+    height: 150px;
+    margin-bottom: 50px;
+  }
+  img {
+    border-radius: 50%;
+    border: solid 5px #fff;
+    margin-top: 100px;
+ 
+  }
+.name {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+    margin-bottom: 0px;
+}
+.country {
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+.name h4{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+  .stats h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    padding: 0;
+  }
+hr {
+    background-color: hsl(0, 0%, 59%);
+}
+  .stats h6 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding: 0;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
